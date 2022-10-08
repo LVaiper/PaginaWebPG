@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(120, 120, 120);
+}
+#Encabezado{
+    height: 7em;
+    background-color: rgb(241, 169, 169);
+    margin: auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#BarraNavegacion{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #BarraNavegacion{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+#BarraNavegacion a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: .1em;
+    font-size: 1.5em;
+}
+
+#BarraNavegacion a:hover {
+    background-color: rgb(120, 120, 120);
+    color: rgb(255, 255, 255);
+}
+
+#contenedorImagenes {
+    display: block;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    #contenedorImagenes {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: center;
+    }
+}
+.imagenes img {
+    width: 350px;
+    height: 300px;
+}
+.imagenes {
+    margin: 1em 1.5em;
+    padding: auto;
+    text-align: center;
+}
+.imagenes_texto{
+    margin: auto;  
+}
+.piepagina{
+    background-color: rgb(248, 208, 208);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: auto;
+}
+.texto{
+    text-align: justify;
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
+.encabezadoportada{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+#piepagina{
+    background-color: rgb(248, 208, 208);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: auto;
+}
+#contenedorImagenes1 {
+    text-align: center;
+
+}
+.imagenes1 {
+    background-color: rgb(0, 0, 0);
+    padding: auto;
+    text-align: center;
+    color: rgb(63, 63, 69);
+}
+img{
+    width: 450px;
+    height: 400px;
+}
+.texto3{
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 2%;
+    color: white;
+}
+.piepagina{
+    background-color: rgb(248, 208, 208);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: auto;
+}
