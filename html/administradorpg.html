@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortaGames</title>
+    <script src="/js/main.js" type="module"></script>
+    <link rel="stylesheet" href="/css/estilopg.css">
+    <script src="/js/login.js" type="module" ></script>
+</head>
+<body>
+    
+    <div id="contenido">
+        <body>
+            <div id="encabezado">
+                <header style="background-color: rgb(248, 208, 208);">
+                    <h1><center>
+                        <br>
+                        PortaGames</center></h1>
+                </header>
+            </div>
+            <section id="ImgContainer">
+                <picture class="imagenes1">
+                    <center><img src="/img/Logoo.png"></center>
+                </picture>
+            </section>
+            <nav id="BarraNavegacion">
+                <a href="/html/indexpg.html">Inicio</a>
+                <a href="/html/productospg.html">Productos</a>
+                <a href="/html/empresapg.html">Empresa</a>
+                <a href="/html/contactospg.html">Contactos</a>
+            </nav>
+    
+        <br>
+        <section>
+            <form class="formulario2" id="login"  >
+                <fieldset>
+                    <legend>BIENVENIDO ADMINISTRADOR</legend>
+                    <div class="contenedor-campos2">
+                        <div class="campo">
+                            <label>Usuario:</label>
+                            <input id="usuario" class="input-text" type="text" placeholder="">
+                        </div>
+    
+                        
+    
+                        <div class="campo">
+                            <label>Contraseña:</label>
+                            <input id="contraseña" class="input-text" type="password" placeholder="">
+                        </div>
+    
+                        <div class="campo">
+                            <input type="text" id="verificador" hidden>
+                        </div>
+                
+                        
+                    </div> <!-- .contenedor-campos -->
+    
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="button" value="Iniciar Sesion" id="iniciar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>    
+
+
+
+        <section>
+
+            <form id="formulario" class="formulario2" style="display: none;">
+               
+                    <legend>REGISTRO DE CARTAS</legend>
+    
+                    <div class="contenedor-campos2">
+                        <div class="campo">
+                            <label>Id:</label>
+                            <input id="id" class="input-text2" type="text" placeholder="Id" >
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Nombre:</label>
+                            <input id="nombre" class="input-text2"type="text" placeholder="Nombre" >
+                        </div>
+                        <div class="campo">
+                            <label for="">Descripción:</label>
+                            <input id="descripcion" class="input-text2" type="text" placeholder="Descripcion" >
+                        </div>
+                        <div class="campo">
+                            <label for="">Cantidad:</label>
+                            <input id="cantidad" class="input-text2" type="number" placeholder="Cantidad" >
+                        </div>
+                        <div class="campo">
+                            <label for="">Precio</label>
+                            <input  class="input-text2" type="number" placeholder="Precio" id="precio">
+                        </div>
+                        <div class="campo">
+                            <label for="">Estatus:</label>
+                            <select name="" id="estatus" class="input-text2" disabled >
+                                <option value="0">Disponible</option>
+                                <option value="1">No disponible</option>
+                            </select>
+                        </div>
+                        <div class="campo">
+                            <label>Imagen:</label>
+                            <img class="producto" id="imagenp" src="/img/none.webp" alt="">
+    
+                            <br>
+                            <input id="url" class="input-text2" type="text" placeholder="Enlace"  readonly="true">
+                            <input id="archivo" type="file" class="input-text2" accept=".jpg,.jpeg,.png">
+                        </div>
+                
+                        
+                    </div>
+    
+                    <div class="alinear-izquierda flex">
+                        <input class="boton3 w-sm-100" type="button" value="Registrar" id="registrar" >
+                        <input class="boton3 w-sm-100" type="button" value="Buscar" id="buscar" >
+                        <input class="boton3 w-sm-100" type="button" value="Modificar" id="modificar" >
+                        <input class="boton3 w-sm-100" type="button" value="Eliminar" id="borrar" >
+                        <input class="boton3 w-sm-100" type="button" value="Limpiar" id="limpiar" > 
+                        
+                    </div>
+              
+            </form>
+        </section>
+    
+            </div>
+    <footer class="piepagina">
+        <h3><center>Ivan Enrique Gomez Ruelas</center></h3>
+                <br>
+        </footer>
+    </body>
+    </html>

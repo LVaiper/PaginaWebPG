@@ -12,7 +12,21 @@ body{
     text-align: center;
     color: rgb(0, 0, 0);
 }
+.producto{
+    width: 100px;
+    height: 100px;
+}
 
+.formulario2 {
+    text-align: center;
+    background-color: rgb(96, 94, 95);
+    width: min( 50rem, 100% ); /** Utilizar el valor más pequeño **/
+    margin: 0 auto;
+    padding: 2rem;
+    align-items: center;
+    color:white;
+   
+}
 #BarraNavegacion{
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -115,4 +129,8 @@ img{
     text-align: center;
     color: rgb(0, 0, 0);
     height: auto;
+}
+.producto2{
+    width: 200px;
+    height: 100px;
 }
